@@ -1,0 +1,378 @@
+/* contact section */
+body {
+    margin: 0px;
+}
+
+.contact-section {
+    height: 397px;
+    background: url(image.png);
+}
+
+/* .c-hero-section{
+
+} */
+.c-header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 290px;
+    align-items: center;
+    padding: 21px;
+}
+
+.c-logo-image {
+    width: 215px;
+    height: 50px;
+}
+
+.c-nav-bar {
+    display: flex;
+    height: 40px;
+    align-items: center;
+    column-gap: 32px;
+    /* padding: 22px;
+    margin-right: 290px; */
+}
+
+#c-home {
+    color: #FEA116;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 15px;
+    margin: 22px;
+    text-decoration: none;
+    /* font-style: normal; */
+    /* font-weight: 500;
+    line-height: 48px; */
+}
+
+#c-contact {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    width: 74px;
+    text-decoration: none;
+    /* font-weight: 500;
+    line-height: 48px; */
+    /* height: 48px;
+    margin-top: 22px; */
+}
+
+#c-book-a-table {
+    padding: 8px 24px;
+    border-radius: 2px;
+    font-weight: 500;
+    background-color: #FEA116;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 15px;
+    width: 88px;
+    padding: 8px 24px;
+    text-decoration: none;
+}
+
+
+
+.c-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 140px;
+    color: #FFF;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 76.8px;
+}
+
+.c-btn {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    padding-left: 697px;
+    column-gap: 20px;
+}
+
+#home2 {
+    text-decoration: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Heebo;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+#contact2 {
+    text-decoration: none;
+    color: #FEA116;
+    text-align: center;
+    font-family: Heebo;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+
+}
+
+
+.contact-detail {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* height: 663px; */
+    padding: 96px 202px 153px 202px;
+    background: #F1F8FF;
+
+}
+
+.contact-head {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-title {
+    color: #FEA116;
+    text-align: center;
+    font-family: Pacifico;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.query {
+    padding-top: 7px;
+    color: #0F172B;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.example-box {
+    display: flex;
+    justify-content: center;
+    padding-top: 42px;
+    column-gap: 55px;
+}
+
+/* .booking {} */
+
+.b-title {
+    color: #FEA116;
+    font-family: Pacifico;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px
+}
+
+/* .b-icon {} */
+
+.com {
+    color: #666565;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.map-detail {
+    display: flex;
+}
+
+.map-img {
+    display: flex;
+    height: 380px;
+    /* width: 300px; */
+    /* padding-left: 88px; */
+    padding-top: 27px;
+}
+
+
+/* form text detail */
+.map-form-detail {
+    display: flex;
+    gap: 40px;
+
+}
+
+.map-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 28px;
+    gap: 15px;
+}
+
+.form-txt-detail {
+    display: flex;
+    column-gap: 65px;
+}
+
+.form-txt {
+    display: flex;
+    /* border-radius: 2px;
+    border: 1px solid #CED4DA;
+    background: #FFF; */
+    /* padding: 16px 100px 16px 12px; */
+    /* background: #FFF;
+    margin-right: 32px;
+    border-radius: 4px; */
+}
+
+
+.input {
+    display: flex;
+    /* width: 260px; */
+    /* height: 56px; */
+    padding: 16px 85px 16px 12px;
+    justify-content: center;
+    align-items: center;
+    column-gap: 36px;
+
+}
+
+.input-message {
+    display: flex;
+    padding: 16px 421px 16px 12px;
+    width: 156px;
+    height: 133px;
+    /* border-radius: 2px;
+    border: 1px solid #CED4DA;
+    background: #FFF; */
+}
+
+.input-subject {
+    width: 95%;
+    padding: 17px 11px;
+}
+
+/* .subject-detail {
+    /* border-radius: 2px;
+    border: 1px solid #CED4DA;
+    background: #FFF; */
+
+
+/* .message { 
+    /* border-radius: 2px;
+    border: 1px solid #CED4DA;
+    background: #FFF;  */
+
+
+.send-btn {
+    padding: 16px 0px;
+    border-radius: 2px;
+    border: 1px solid #FEA116;
+    background: #FEA116;
+    /* margin-right: 33px; */
+}
+
+
+
+
+/* footer style */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    background: #272F41;
+    column-gap: 734px;
+}
+
+.left-text {
+    color: #F1F8FF;
+    text-align: right;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22.5px;
+}
+
+.right-btn {
+    color: #FFF;
+    text-decoration: none;
+    color: #F1F8FF;
+    text-align: right;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22.5px;
+}
+
+#footer-home {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 15px;
+    margin: 22px;
+    text-decoration: none;
+}
+
+#footer-contact {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 15px;
+    width: 74px;
+    text-decoration: none;
+}
+
+
+
+
+
+@media (max-width:500px) {
+    .c-header{
+        margin:0px;
+        
+    }
+    .c-nav-bar{
+        display: none;
+      
+    }
+    .c-btn{
+        padding-left: 177px;
+    }
+    .contact-detail{
+    margin: 62px 0px;
+    padding: 0px;
+     background: #ffffff;
+    }
+    .example-box{
+        flex-direction: column;
+        margin: 0px 18px;
+        row-gap: 30px;
+    }
+    .map-img{
+        width:468px;
+        padding-left: 6px;
+        padding-top: 0px;
+        /* height: 0px; */
+    }
+    .map-form-detail{
+     flex-direction: column;
+    }
+    .form-txt-detail{
+        flex-direction: column;
+        row-gap: 25px;
+    }
+    .map-form{
+        margin: 28px 23px; 
+        gap: 27px;
+    }
+    .input{
+        padding: 16px 265px 16px 12px;
+    }
+    .input-message{
+        padding: 16px 264px 16px 12px;
+    }
+    .footer{
+        column-gap: 33px;
+    }
+}
